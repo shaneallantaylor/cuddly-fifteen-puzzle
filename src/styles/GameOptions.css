@@ -1,0 +1,40 @@
+.game-options-container {
+  width:  500px;
+  margin:  0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: wrap row;
+}
+
+.game-options-container h2 {
+  width: 100%;
+  text-align: center;
+  margin: 0 0 5px;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.game-options-container button {
+  align-self: center;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.moves-count-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.moves-count-container h4 {
+  font-size: 14px;
+  font-weight: 300;
+  margin: 10px;
+  display: inline-block;
+}
+
+.moves-count-container h3 {
+  font-weight: 300;
+  display: inline-block;
+  font-size: 14px;
+  margin: 10px;
+}

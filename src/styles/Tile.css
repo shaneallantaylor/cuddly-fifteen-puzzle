@@ -1,0 +1,116 @@
+.solution-preview .tile {
+  background: transparent !important;
+  pointer-events: none;
+  border-color: rgba(255, 255, 255, 0);
+}
+
+.gameover .tile {
+  border: none;
+}
+
+.tile {
+  border: #fff 2px solid;
+  width: 25%;
+  box-sizing: border-box;
+  text-align: center;
+  pointer-events: none;
+  /* background: rgba(255, 255, 255, 0.4) !important; */
+  transition: background 0.5s ease;
+  position:relative;
+  overflow:hidden;
+}
+
+.moveable-tile {
+  pointer-events: all;
+  cursor: pointer;
+}
+
+.tile span {
+    -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-size: 80px;
+  position: absolute;
+  top: -100px;
+  right: -100px;
+  font-weight: 900;
+  color: #fff;
+  opacity: 0;
+  user-select: none;
+  transition: all 0.2s ease;
+}
+
+.numbers-visible .tile span {
+  top: -20px;
+  right: -10px;
+  opacity: 0.6;
+}
+
+
+
+.tile.empty {
+  background: #fff !important;
+}
+
+.tile.empty span {
+  display: none;
+}
+
+.tile-number-1 {
+  background-position: 0px 0px;
+}
+
+.tile-number-2 {
+  background-position: -125px 0px;
+}
+
+.tile-number-3 {
+  background-position: -250px 0px;
+}
+
+.tile-number-4 {
+  background-position: -375px 0px;
+}
+
+.tile-number-5 {
+  background-position: 0px -125px;
+}
+
+.tile-number-6 {
+  background-position: -125px -125px;
+}
+
+.tile-number-7 {
+  background-position: -250px -125px;
+}
+
+.tile-number-8 {
+  background-position: -375px -125px;
+}
+
+.tile-number-9 {
+  background-position: 0px -250px;
+}
+
+.tile-number-10 {
+  background-position: -125px -250px;
+}
+
+.tile-number-11 {
+  background-position: -250px -250px;
+}
+
+.tile-number-12 {
+  background-position: -375px -250px;
+}
+
+.tile-number-13 {
+  background-position: 0px -375px;
+}
+
+.tile-number-14 {
+  background-position: -125px -375px;
+}
+
+.tile-number-15 {
+  background-position: -250px -375px;
+}
